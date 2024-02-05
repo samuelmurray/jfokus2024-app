@@ -24,5 +24,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          file: ./config/Dockerfile
           push: false
           tags: demo:latest
